@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Muntasir Biojid Basic Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="headerContent">
+      <a href="./index.html"><h1>Muntasir Biojid</h1></a>
+      <nav>
+        <a href="./index.html">About</a> |
+        <a href="./portfolio.html">Portfolio</a> |
+        <a href="./contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <header>
+      <h2>Contact</h2>
+    </header>
+    <hr>
+    <form id="contactForm">
+      <label for="name">Name</label><br>
+      <input type="text" name="name" id="name" placeholder="John Smith"><br>
+      <label for="email">Email</label><br>
+      <input type="email" name="email" id="email" placeholder="example@gmail.com"><br>
+      <label for="message">Message</label><br>
+      <textarea rows="10" cols="30" name="message" id="message">
+      </textarea><br>
+      <input type="submit" value="Submit" id="formSubmit">
+    </form>
+  </section>
+
+  <footer>
+   <small>&copy; Copyright 2018, Muntasir Biojid. All Rights Reserved.</small>
+ </footer>
+ 
+ <script>
+  document.getElementById("formSubmit").addEventListener("click", function() {
+      // clear the form data
+      document.getElementById("name").innerHTML = "";
+      document.getElementById("email").innerHTML = "";
+      document.getElementById("message").innerHTML = "";
+      alert("The message has been sent!");
+    });
+  </script>
+
+</body>
+
+</html>
