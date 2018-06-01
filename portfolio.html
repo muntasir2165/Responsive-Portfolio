@@ -1,69 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
-  <title>Muntasir Biojid Basic Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <title>Portfolio | Muntasir Biojid</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-  <header>
-    <div class="headerContent">
-      <a href="./index.html"><h1>Muntasir Biojid</h1></a>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Muntasir Biojid</a>
       <nav>
-        <a href="./index.html">About</a> |
-        <a href="./portfolio.html">Portfolio</a> |
-        <a href="./contact.html">Contact</a>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
-  <section>
-    <header>
-      <h2>Portfolio</h2>
-    </header>
-    <hr>
-    <table>
-      <tr>
-        <td>
-          <img src="./assets/images/asteroids.png" alt="Python Games Link 1">
-          <div class="workTitle">Python Games 1</div>
-        </td>
-        <td>
-          <img src="./assets/images/tictactoe.png" alt="Python Games Link 2">
-          <div class="workTitle">Python Games 2</div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img src="./assets/images/python.jpg" alt="Python Games/Projects">
-          <div class="workTitle">Python Games/Projects</div>
-        </td>
-        <td>
-          <img src="./assets/images/java.png" alt="Java Games/Projects">
-          <div class="workTitle">Java Games/Projects</div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img src="./assets/images/web.png" alt="Web Development">
-          <div class="workTitle">Web Development</div>
-        </td>
-        <td>
-          <img src="./assets/images/loading2.gif" alt="Java Games/Projects">
-          <div class="workTitle">Future Work?</div>
-        </td>
-      </tr>
-    </table>
-  </section>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
+
+      <div class="work">
+        <img src="assets/images/asteroids.jpg" alt="Python Games Link 1">
+        
+        <h3>Python Games 1</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/tictactoe.jpg" alt="Python Games Link 2">
+
+        <h3>Python Games 2</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/python.jpg" alt="Python Games/Projects">
+
+        <h3>Python Games/Projects</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/java.jpg" alt="Java Games/Projects">
+
+        <h3>Java Games/Projects</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/web.jpg" alt="Web Development">
+
+        <h3>Web Development</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/loading.gif" alt="Future Work Placeholder">
+
+        <h3>Future Work...</h3>
+      </div>
+
+    </section>
+
+  </div>
 
   <footer>
-   <small>&copy; Copyright 2018, Muntasir Biojid. All Rights Reserved.</small>
- </footer>
-
+    <div class="container">
+      &copy; Copyright 2018, Muntasir Biojid. All Rights Reserved.
+    </div>
+  </footer>
 </body>
 
 </html>
