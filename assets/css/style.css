@@ -293,8 +293,10 @@ portfolio site on a phone in landscape orientation*/
   }
 
   #main-container {
-  padding-top: 10px;
-  padding: 0 25px;
+  padding: 10px;
+  padding-left:25px;
+  padding-right:25px;
+
   }
 
   .main-section {
