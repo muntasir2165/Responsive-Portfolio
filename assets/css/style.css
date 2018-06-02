@@ -259,16 +259,22 @@ portfolio site on a laptop / desktop computer*/
 portfolio site on a tablet*/
 @media screen and (min-width : 641px)  and (max-width: 768px) {
   #logo {
-    margin-left: 15px;
+    margin-left: 25px;
   }
 
   nav {
-    margin-right: 15px;
+    margin-right: 25px;
   }
 
   .main-section {
     margin-left: auto;
     margin-right: auto;
+  }
+
+    #main-container {
+  padding-left:25px;
+  padding-right:25px;
+
   }
 }
 
@@ -294,8 +300,8 @@ portfolio site on a phone in landscape orientation*/
 
   #main-container {
   padding: 10px;
-  padding-left:25px;
-  padding-right:25px;
+  padding-left:12px;
+  padding-right:12px;
 
   }
 
