@@ -240,7 +240,7 @@ input[type=submit] {
 
 /*apply the following styles when viewing the 
 portfolio site on a laptop / desktop computer*/
-@media screen and (min-device-width : 769px) and (max-width: 980px) {
+@media screen and (min-width : 769px) and (max-width: 980px) {
   #logo {
     margin-left: 15px;
   }
@@ -257,7 +257,7 @@ portfolio site on a laptop / desktop computer*/
 
 /*apply the following styles when viewing the 
 portfolio site on a tablet*/
-@media screen and (min-device-width : 641px)  and (max-width: 768px) {
+@media screen and (min-width : 641px)  and (max-width: 768px) {
   #logo {
     margin-left: 15px;
   }
@@ -289,11 +289,12 @@ portfolio site on a phone in landscape orientation*/
   border-style: solid;
   border-color: red;*/
     float: none;
+    margin: 0 auto;
   }
 
   #main-container {
   padding-top: 10px;
-  /*margin: 0 50px;*/
+  padding: 0 25px;
   }
 
   .main-section {
